@@ -7,3 +7,9 @@ Given an integer array nums, return true if any value appears at least twice in 
 """
 def contains_duplicate(nums):
     return len(nums)!=len(set(nums))
+
+def contains_duplicate_executor():
+    print('contains duplicate')
+    contains_duplicate([1,2,3,1]) # true
+    contains_duplicate([1,2,3,4]) # false
+    contains_duplicate([1,2,3,1]) # true
