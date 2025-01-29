@@ -164,17 +164,6 @@ def search_in_rotated_sorted_array(nums, target):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 def search_in_rotated_sorted_array_executor():
     print(search_in_rotated_sorted_array([],1),-1) #-1
     print(search_in_rotated_sorted_array([8,9,2,3,4],9),1) #1
@@ -185,4 +174,3 @@ def search_in_rotated_sorted_array_executor():
     print(search_in_rotated_sorted_array([1],0),-1) #-1
     print(search_in_rotated_sorted_array([4,5,6,7,0,1,2],0),4) #4
     print(search_in_rotated_sorted_array([4,5,6,7,0,1,2],3),-1) #-1
-
