@@ -9,6 +9,7 @@ from max_sub_array import max_sub_array_executor
 from water_area import water_area_executor
 from max_product import max_product_executor
 from find_min_rotated_sorted_array import find_min_rotated_sorted_array_executor
+from search_in_rotated_sorted_array import search_in_rotated_sorted_array_executor
 
 def main():
 #   https://leetcode.com/problems/contains-duplicate/description/
@@ -33,7 +34,10 @@ def main():
     # max_product_executor()
 
 # https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-    find_min_rotated_sorted_array_executor()
+    # find_min_rotated_sorted_array_executor()
+
+# https://leetcode.com/problems/search-in-rotated-sorted-array/
+    search_in_rotated_sorted_array_executor()
 
 if __name__ == "__main__":
    main()
