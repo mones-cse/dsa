@@ -10,6 +10,7 @@ from water_area import water_area_executor
 from max_product import max_product_executor
 from find_min_rotated_sorted_array import find_min_rotated_sorted_array_executor
 from search_in_rotated_sorted_array import search_in_rotated_sorted_array_executor
+from is_anagram import is_anagram_executor
 
 def main():
 #   https://leetcode.com/problems/contains-duplicate/description/
@@ -37,7 +38,10 @@ def main():
     # find_min_rotated_sorted_array_executor()
 
 # https://leetcode.com/problems/search-in-rotated-sorted-array/
-    search_in_rotated_sorted_array_executor()
+    # search_in_rotated_sorted_array_executor()
+
+# https://leetcode.com/problems/valid-anagram/
+    is_anagram_executor()
 
 if __name__ == "__main__":
    main()
