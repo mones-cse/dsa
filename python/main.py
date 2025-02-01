@@ -2,6 +2,7 @@
 # and print the result
 
 from contains_duplicate import contains_duplicate_executor
+from hamming_weight import hamming_weight_executor
 from two_sum import two_sum_executor
 from max_profit import max_profit_executor
 from product_except_self import product_except_self_executor
@@ -11,7 +12,8 @@ from max_product import max_product_executor
 from find_min_rotated_sorted_array import find_min_rotated_sorted_array_executor
 from search_in_rotated_sorted_array import search_in_rotated_sorted_array_executor
 from is_anagram import is_anagram_executor
-
+from three_sum import three_sum_executor
+from reverse_bits import reverse_bits_executor
 def main():
 #   https://leetcode.com/problems/contains-duplicate/description/
     # contains_duplicate_executor()
@@ -41,7 +43,16 @@ def main():
     # search_in_rotated_sorted_array_executor()
 
 # https://leetcode.com/problems/valid-anagram/
-    is_anagram_executor()
+    # is_anagram_executor()
+
+#https://leetcode.com/problems/3sum/description/
+    # three_sum_executor()
+
+# https://leetcode.com/problems/reverse-bits/
+    # reverse_bits_executor()
+
+# problem: https://leetcode.com/problems/number-of-1-bits/
+    hamming_weight_executor()
 
 if __name__ == "__main__":
    main()
